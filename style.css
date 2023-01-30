@@ -1,0 +1,41 @@
+ body{
+    background-color:skyblue;
+    /* text-align: center;
+    display: flex;
+    flex-direction: column; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+
+} 
+h2{
+    text-align: center;
+}
+
+form{
+    margin:auto;
+    display:flex;
+    flex-direction: column; 
+    max-width: 300px;
+    gap:0.5rem;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 1px 1px 1px 1px rgba(0,0,0, 0.1);
+    background:radial-gradient(circle); */
+    
+    
+    /* display:block; */
+}
+    
+.input-element{
+    display:block;
+    width:300px;
+    
+}
+#btn-sign{
+    background-color:royalblue;
+    color:white;
+    width:310px;
+    height:25px;
+}
