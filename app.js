@@ -81,6 +81,19 @@ if(inputConfirm.value===""){
         return;
         
     }
+    // Form Submission..
+  fetch("https://form-validation-d6528-default-rtdb.asia-southeast1.firebasedatabase.app/form-validation.json",
+{
+    method:"POST",
+    body:JSON.stringify({
+        userName:userName,
+        userEmail:userEmail,
+        Password:inputPassword.value,
+        Confirm:inputConfirm.value,
+
+    })
+
+});
     resetForm();
     alert("Congratulations! Your Registration has been completed successfully.");
     // resetForm();
